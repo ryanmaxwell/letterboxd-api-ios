@@ -1,0 +1,16 @@
+PODS:
+  - LetterboxdRequestSigning (1.0)
+
+DEPENDENCIES:
+  - LetterboxdRequestSigning (from `../`)
+
+EXTERNAL SOURCES:
+  LetterboxdRequestSigning:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LetterboxdRequestSigning: 79a7b83e08e9f19386321b8c2da622674a4107d3
+
+PODFILE CHECKSUM: cddbb663e2147e71686c35dbc15d39633d91fd77
+
+COCOAPODS: 1.2.1

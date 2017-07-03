@@ -1,0 +1,10 @@
+use_frameworks!
+platform :ios, '10.0'
+
+target 'LetterboxdAPIExample' do
+  pod 'LetterboxdRequestSigning', :path => '../'
+  
+  target 'LetterboxdAPIExampleTests' do
+    inherit! :search_paths
+  end
+end

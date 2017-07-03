@@ -1,0 +1,22 @@
+{
+  "name": "LetterboxdRequestSigning",
+  "version": "1.0",
+  "summary": "Convenience methods for signing Letterboxd API requests",
+  "description": "Encapsulates the logic required to sign requests when using the Letterboxd API into an extension on URLRequest for Swift, and a category on NSMutableURLRequest for Objective-C.",
+  "homepage": "http://letterboxd.com",
+  "license": "MIT",
+  "authors": {
+    "Ryan Maxwell": "ryan@cactuslab.com"
+  },
+  "platforms": {
+    "ios": "9.0",
+    "tvos": "9.0",
+    "osx": "10.11"
+  },
+  "source": {
+    "git": "http://github.com/ryanmaxwell/letterboxd-api-swift.git",
+    "tag": "1.0"
+  },
+  "source_files": "Classes",
+  "requires_arc": true
+}
