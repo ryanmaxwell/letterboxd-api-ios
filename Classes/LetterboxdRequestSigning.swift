@@ -55,7 +55,7 @@ public extension URLRequest {
     }
 }
 
-extension NSMutableURLRequest {
+public extension NSMutableURLRequest {
     
     @objc(signedRequestForURL:HTTPMethod:HTTPBody:APIKey:APISecret:)
     class func signedRequest(for url: URL, httpMethod: String, httpBody: Data?, apiKey: String, apiSecret: String) -> NSMutableURLRequest {
