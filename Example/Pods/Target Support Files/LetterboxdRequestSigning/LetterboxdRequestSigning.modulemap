@@ -1,6 +1,0 @@
-framework module LetterboxdRequestSigning {
-  umbrella header "LetterboxdRequestSigning-umbrella.h"
-
-  export *
-  module * { export * }
-}
