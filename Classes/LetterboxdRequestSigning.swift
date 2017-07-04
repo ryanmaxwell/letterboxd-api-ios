@@ -33,7 +33,7 @@ public struct LetterboxdRequestSigning {
             plainTextData.append(httpBody)
         }
         
-        let signature = HMAC.sign(plainTextData, withKey: apiSecret, using: .SHA256)
+        let signature = HMAC.sign(plainTextData, withKey: .sha256, algorithm: .sha256)
         
         urlString += "&signature=\(signature)"
         
